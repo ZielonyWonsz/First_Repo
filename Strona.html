@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Moja strona</title>
+  </head>
+  <body>
+    <table align="center"; style="width:80%">
+
+         <p align="center"; style="font-size:2cm"> Staliński </td> 
+        
+        <tr align="center";>
+          <td><button onclick="Los()";>Przycisk1</td></button>
+          <td><button onclick="alert(Fib(5))";>Przycisk2</td></button>
+          <td><button type="button">Przycisk3</td></button>
+          <td><button type="button">Przycisk4</td></button>
+          <td><button type="button">Przycisk5</td></button>
+          <td><button type="button">Przycisk6</td></button>
+        </tr>
+      </table>
+
+      <script text="javascript">
+          function Los() {
+              alert(Math.random()*100);
+          };
+      </script>
+      
+      <script text="javasript">
+        function Fib( n) {
+        if(n==0){
+          return 0;
+        }
+        else if(n==1){
+          return 1;
+        }
+        else {
+          return fib(n-1)+fib(n-2);
+        }
+        };
+      </script>
+  </body>
+</html>
